@@ -1,13 +1,13 @@
 ## Start-Up Instructions:
 
-## Download & Unzip
+Download & Unzip
 
-## Open Termial
+Open Termial
 
-## cd to project /todo
+cd to project /todo
 
-## RUN: 'npm install'
+RUN: 'npm install'
 
-## RUN: 'npm start'
+RUN: 'npm start'
 
 ### Basic-Todo
