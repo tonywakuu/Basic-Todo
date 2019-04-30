@@ -49,7 +49,7 @@ render() {
     <div className="App">
       <Header className="App-header">
         <h2>
-          Todo App for Mobile Money
+         React Todo App
         </h2>
       </Header>
     <Body className="App-body">
@@ -78,7 +78,7 @@ render() {
       </p>
     </Body>
       <footer className="App-footer">
-        TODOs * Tony Walker @ Mobile Money
+        React TODOs * Tony Walker
       </footer>
     </div>
     );
