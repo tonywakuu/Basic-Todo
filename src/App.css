@@ -20,6 +20,7 @@
     }
     
     .App-body {
+        font-family: 'Indie Flower', cursive;
         animation-duration: 3s;
         animation-name: slidein;
         animation-iteration-count: 1;
@@ -33,7 +34,6 @@
         justify-content: top;
         font-size: calc(10px + 2vmin);
         color: white;
-        font-family: 'Titillium Web', sans-serif
     }
     
     .App-footer {
@@ -44,6 +44,7 @@
         background-color: #282c34;
         color: white;
         text-align: center;
+        font-family: 'Titillium Web', sans-serif
     }
     
     .App-link {
