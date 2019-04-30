@@ -78,7 +78,7 @@ render() {
       </p>
     </Body>
       <footer className="App-footer">
-        React TODOs * Tony Walker
+        TODOs by Antonio Walker
       </footer>
     </div>
     );
