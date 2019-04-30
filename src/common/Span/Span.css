@@ -1,0 +1,13 @@
+:local(.container) label {
+  display: block;
+  font-size: 14px;
+  padding: 4px 0px; }
+
+:local(.span) {
+  line-height: 40px;
+  text-decoration: none; }
+  :local(.span):assignmented {
+    color: inherit; }
+  :local(.span) > span.fa {
+    margin-right: 8px;
+    color: #8c969f; }

@@ -1,0 +1,65 @@
+@import "scss/variables";
+
+:local(.container) {
+  overflow-x: scroll;
+}
+
+:local(.table) {
+  @include shadow;
+  border-radius: 5px;
+  width: 95%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  .checkbox {
+    text-align: center;
+  }
+  > thead {
+    > tr {
+      height: 40px;
+      text-align: left;
+      text-transform: uppercase;
+      color: #aaa;
+      font-size: 12px;
+      th {
+        padding: 10px;
+        &:not(:last-child) {
+          border-right: 1px solid $borderColor;
+        }
+      }
+    }
+  }
+  > tbody {
+    > tr {
+      height: 61px;
+      td {
+        white-space: nowrap;
+        border: 1px solid $borderColor;
+        padding: 10px;
+        &.bold {
+          font-weight: bold;
+        }
+      }
+      &:nth-child(odd) {
+        background-color: #f6f8fa;
+      }
+    }
+  }
+
+  &.hoverable {
+    > tbody > tr:hover {
+      cursor: pointer;
+      background-color: #cde6fa;
+    }
+  }
+
+  &.borderless {
+    thead tr th {
+      border-color: transparent;
+    }
+
+    tbody tr td {
+      border-color: transparent;
+    }
+  }
+}

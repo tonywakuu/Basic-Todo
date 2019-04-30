@@ -1,0 +1,15 @@
+@import "scss/variables";
+
+:local(.modal) {
+  @include shadow;
+  @include modal;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 400px;
+  width: 500px;
+  > .title {
+    text-align: center;
+    font-family: $sans-serif-main;
+  }
+}

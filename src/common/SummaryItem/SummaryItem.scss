@@ -1,0 +1,30 @@
+@import "scss/variables";
+
+:local(.item) {
+  padding: 0px 20px;
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+
+  > .title {
+    font-size: 14px;
+    line-height: 26px;
+    color: #8c969f;
+  }
+  > .content {
+    font-size: 30px;
+    line-height: 40px;
+    height: 40px;
+    color: #25292d;
+  }
+
+  &.small {
+    padding: 0px 10px;
+    margin: 10px 0px;
+
+    > .content {
+      font-size: 22px;
+      line-height: 30px;
+    }
+  }
+}

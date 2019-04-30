@@ -1,0 +1,9 @@
+:local(.overlay) {
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+  display: none; }
+  :local(.overlay).active {
+    display: block;
+    position: absolute; }

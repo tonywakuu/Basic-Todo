@@ -1,0 +1,32 @@
+:local(.icon) {
+  display: inline-block;
+  background: linear-gradient(135deg, #cacaca, #fbfbfb);
+  border-radius: 50%;
+  color: #778da7;
+  padding: 8px;
+  font-size: 12px;
+  width: 30px;
+  height: 30px;
+  margin: 6px;
+  text-align: center; }
+  :local(.icon).button {
+    cursor: pointer;
+    background: #fff;
+    padding: 6px;
+    box-shadow: 0 1px 2px 0 #afafc5;
+    height: 42px;
+    width: 42px;
+    font-size: 24px;
+    transition: 150ms; }
+    :local(.icon).button:hover {
+      background-color: #eee; }
+  :local(.icon).edit {
+    color: #ff7d38; }
+  :local(.icon).cancel {
+    color: #ef4836; }
+  :local(.icon).save {
+    color: #0392f5; }
+  :local(.icon).small {
+    height: 30px;
+    width: 30px;
+    font-size: 16px; }

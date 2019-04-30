@@ -1,0 +1,41 @@
+@import "scss/variables";
+
+:local(.icon) {
+  display: inline-block;
+  background: linear-gradient(135deg, #cacaca, #fbfbfb);
+  border-radius: 50%;
+  color: #778da7;
+  padding: 8px;
+  font-size: 12px;
+  width: 30px;
+  height: 30px;
+  margin: 6px;
+  text-align: center;
+  &.button {
+    cursor: pointer;
+    background: #fff;
+    padding: 6px;
+    @include shadow;
+    height: 42px;
+    width: 42px;
+    font-size: 24px;
+    transition: 150ms;
+    &:hover {
+      background-color: #eee;
+    }
+  }
+  &.edit {
+    color: $activeColor;
+  }
+  &.cancel {
+    color: $deleteColor;
+  }
+  &.save {
+    color: $editColor;
+  }
+  &.small {
+    height: 30px;
+    width: 30px;
+    font-size: 16px;
+  }
+}

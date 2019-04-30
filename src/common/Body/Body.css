@@ -1,0 +1,15 @@
+:local(.container) {
+  box-shadow: 0 1px 2px 0 #afafc5;
+  width: 90%;
+  background-color: #fafbfc;
+  padding: 10px;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 20px; }
+  :local(.container) > .form {
+    max-width: 400px;
+    margin: 20px auto; }
+    :local(.container) > .form > .buttons {
+      display: flex;
+      justify-content: space-between;
+      width: 100%; }

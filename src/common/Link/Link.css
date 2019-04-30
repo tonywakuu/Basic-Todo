@@ -1,0 +1,5 @@
+:local(.a) {
+  color: #ff7d38;
+  text-decoration: none; }
+  :local(.a):assignmented {
+    color: #ff7d38; }

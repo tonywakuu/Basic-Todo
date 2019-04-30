@@ -1,0 +1,20 @@
+@import "scss/variables";
+:local(.container) {
+    label {
+        @include label;
+        font-size: 14px;
+        padding: 4px 0px;
+    }
+}
+
+:local(.span) {
+    line-height: 40px;
+    text-decoration: none;
+    &:assignmented {
+        color: inherit;
+    }
+    >span.fa {
+        margin-right: 8px;
+        color: $lightTextColor;
+    }
+}

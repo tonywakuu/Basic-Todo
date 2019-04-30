@@ -1,0 +1,16 @@
+:local(.modal) {
+  box-shadow: 0 1px 2px 0 #afafc5;
+  width: 50%;
+  max-width: 400px;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 400px;
+  width: 500px; }
+  :local(.modal) > .title {
+    text-align: center;
+    font-family: "Open Sans", sans-serif; }

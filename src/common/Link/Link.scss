@@ -1,0 +1,8 @@
+@import "scss/variables";
+:local(.a) {
+    color: $accentColor;
+    text-decoration: none;
+    &:assignmented {
+        color: $activeColor;
+    }
+}

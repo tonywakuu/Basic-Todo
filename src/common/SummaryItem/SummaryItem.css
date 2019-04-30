@@ -1,0 +1,20 @@
+:local(.item) {
+  padding: 0px 20px;
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column; }
+  :local(.item) > .title {
+    font-size: 14px;
+    line-height: 26px;
+    color: #8c969f; }
+  :local(.item) > .content {
+    font-size: 30px;
+    line-height: 40px;
+    height: 40px;
+    color: #25292d; }
+  :local(.item).small {
+    padding: 0px 10px;
+    margin: 10px 0px; }
+    :local(.item).small > .content {
+      font-size: 22px;
+      line-height: 30px; }

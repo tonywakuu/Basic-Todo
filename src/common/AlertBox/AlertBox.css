@@ -1,0 +1,11 @@
+:local(.alertBox) {
+  margin: 0;
+  padding: 10px;
+  background-color: #fcecea;
+  font-weight: normal;
+  color: #444;
+  border-radius: 5px; }
+  :local(.alertBox) > span.fa {
+    color: red;
+    margin-right: 10px;
+    font-size: 20px; }

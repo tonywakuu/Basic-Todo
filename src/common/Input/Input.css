@@ -1,0 +1,22 @@
+:local(.container) label {
+  display: block;
+  font-size: 14px;
+  padding: 4px 0px;
+  font-family: "Open Sans", sans-serif; }
+
+:local(.input) {
+  border: 1px solid #dfe1e2;
+  background-color: #fff;
+  padding: 8px;
+  height: 36px;
+  font-family: "Roboto", sans-serif; }
+  :local(.input).wide {
+    width: 100%; }
+  :local(.input).checkbox {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #8c969f;
+    border-radius: 3px;
+    -webkit-appearance: none; }
+    :local(.input).checkbox.checked {
+      background-color: #ff7d38; }

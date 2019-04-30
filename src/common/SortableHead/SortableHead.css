@@ -1,0 +1,11 @@
+:local(.head) > .fa {
+  font-size: 16px;
+  cursor: pointer;
+  position: relative; }
+  :local(.head) > .fa.top {
+    bottom: 5px;
+    left: 9px; }
+  :local(.head) > .fa.bottom {
+    top: 5px; }
+  :local(.head) > .fa.active {
+    color: #000; }

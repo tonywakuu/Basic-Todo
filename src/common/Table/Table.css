@@ -1,0 +1,39 @@
+:local(.container) {
+  overflow-x: scroll; }
+
+:local(.table) {
+  box-shadow: 0 1px 2px 0 #afafc5;
+  border-radius: 5px;
+  width: 95%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fff; }
+  :local(.table) .checkbox {
+    text-align: center; }
+  :local(.table) > thead > tr {
+    height: 40px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #aaa;
+    font-size: 12px; }
+    :local(.table) > thead > tr th {
+      padding: 10px; }
+      :local(.table) > thead > tr th:not(:last-child) {
+        border-right: 1px solid #dfe1e2; }
+  :local(.table) > tbody > tr {
+    height: 61px; }
+    :local(.table) > tbody > tr td {
+      white-space: nowrap;
+      border: 1px solid #dfe1e2;
+      padding: 10px; }
+      :local(.table) > tbody > tr td.bold {
+        font-weight: bold; }
+    :local(.table) > tbody > tr:nth-child(odd) {
+      background-color: #f6f8fa; }
+  :local(.table).hoverable > tbody > tr:hover {
+    cursor: pointer;
+    background-color: #cde6fa; }
+  :local(.table).borderless thead tr th {
+    border-color: transparent; }
+  :local(.table).borderless tbody tr td {
+    border-color: transparent; }

@@ -1,0 +1,32 @@
+@import "scss/variables";
+
+:local(.buttonGroup) {
+  @include shadow;
+  border-radius: 5px;
+  > button {
+    background-color: #fff;
+    background: #fff;
+    padding: 10px 14px;
+    border-color: transparent;
+    color: #888;
+    font-size: 12px;
+    &:hover {
+      background-color: #eee;
+    }
+    &.selected {
+      background-color: #a0a9b0;
+      color: #fff;
+    }
+    &:not(:first-child) {
+      border-left: none;
+    }
+    &:first-child {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+    &:last-child {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+  }
+}

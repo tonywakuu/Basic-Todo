@@ -1,0 +1,58 @@
+@import "scss/variables";
+
+:local(.fileUpload) {
+  > input {
+    @include hidden;
+  }
+}
+
+:local(.loader) {
+  height: 39px;
+  display: flex;
+  align-items: center;
+  > div {
+    width: 100%;
+  }
+}
+
+:local(.label) {
+  text-align: center;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #3bcf5d;
+  padding: 12px 18px;
+  font-size: 14px;
+  min-width: 175px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 150ms;
+  &:hover {
+    box-shadow: 1px 1px 8px #888888;
+  }
+  &.wide {
+    width: 100%;
+    border-radius: 0px;
+  }
+  &.large {
+    padding: 14px 24px;
+    border-radius: 3px;
+  }
+  &.confirm {
+    background-color: $editColor;
+  }
+  &.inactive {
+    width: auto;
+    cursor: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    &:hover {
+      box-shadow: none;
+    }
+  }
+  > .fa {
+    margin-right: 10px;
+  }
+}

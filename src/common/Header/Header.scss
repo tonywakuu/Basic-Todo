@@ -1,0 +1,48 @@
+@import "scss/variables";
+
+:local(.container) {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  @media only screen and (max-width: $smallScreen) {
+    padding: 0px;
+  }
+  > h1 {
+    font-weight: normal;
+    text-align: center;
+    flex: 1;
+  }
+  > h2 {
+    font-weight: normal;
+  }
+  > h3 {
+    font-weight: normal;
+    text-align: center;
+    flex: 1;
+  }
+  > .icon-header {
+    display: flex;
+    align-items: center;
+    > h3 {
+      padding-left: 8px;
+      &.back {
+        color: $editColor;
+        cursor: pointer;
+      }
+    }
+  }
+  > .buttons {
+    > .edit, > .delete {
+      cursor: pointer;
+      width: 24px;
+    }
+    > .edit {
+      color: $editColor;
+    }
+    > .delete {
+      color: $deleteColor;
+    }
+  }
+}

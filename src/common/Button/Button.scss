@@ -1,0 +1,86 @@
+@import "scss/variables";
+
+:local(.button) {
+  font-family: $sans-serif-sub;
+  text-align: center;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #3bcf5d;
+  padding: 12px 18px;
+  font-size: 14px;
+  // min-width: 175px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 150ms;
+
+  @media only screen and (max-width: $smallScreen) {
+    padding: 12px 6px;
+  }
+
+  &:hover {
+    box-shadow: 1px 1px 8px #888888;
+  }
+  &.wide {
+    width: 100%;
+    border-radius: 0px;
+  }
+  &.large {
+    padding: 14px 24px;
+    @media only screen and (max-width: $smallScreen) {
+      padding: 14px 12px;
+    }
+  }
+  &.rx {
+    background: lightgrey;
+    color: #888888;
+    font-size: 1em;
+  }
+  &.cancel {
+    color: #888;
+    background: #fff;
+    border: 1px solid #eee;
+    width: 100px;
+  }
+  &.search {
+    color: $accentColor;
+    background-color: #fff;
+    min-width: inherit;
+    height: 36px;
+    border: 1px solid $borderColor;
+  }
+  &.danger {
+    background-color: $deleteColor;
+  }
+  &.confirm {
+    background-color: $editColor;
+  }
+  &.inactive {
+    width: auto;
+    cursor: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    &:hover {
+      box-shadow: none;
+    }
+  }
+  > .fa {
+    margin-right: 10px;
+  }
+}
+
+:local(.textButton) {
+  cursor: pointer;
+  transition: all 150ms;
+  &:hover {
+    text-shadow: 1px 1px 8px #b4b3b3;
+  }
+  &.danger {
+    color: $deleteColor;
+  }
+  &.confirm {
+    color: $editColor;
+  }
+}

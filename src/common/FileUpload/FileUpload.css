@@ -1,0 +1,49 @@
+:local(.fileUpload) > input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 1px;
+  z-index: -1; }
+
+:local(.loader) {
+  height: 39px;
+  display: flex;
+  align-items: center; }
+  :local(.loader) > div {
+    width: 100%; }
+
+:local(.label) {
+  text-align: center;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #3bcf5d;
+  padding: 12px 18px;
+  font-size: 14px;
+  min-width: 175px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 150ms; }
+  :local(.label):hover {
+    box-shadow: 1px 1px 8px #888888; }
+  :local(.label).wide {
+    width: 100%;
+    border-radius: 0px; }
+  :local(.label).large {
+    padding: 14px 24px;
+    border-radius: 3px; }
+  :local(.label).confirm {
+    background-color: #0392f5; }
+  :local(.label).inactive {
+    width: auto;
+    cursor: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5; }
+    :local(.label).inactive:hover {
+      box-shadow: none; }
+  :local(.label) > .fa {
+    margin-right: 10px; }

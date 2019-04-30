@@ -1,0 +1,27 @@
+@import "scss/variables";
+
+:local(.container) {
+  width: 95%;
+  height: 140px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  background-color: #edf0f2;
+  > div {
+    padding: 10px;
+    padding-top: 34px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &.main {
+      flex: 1;
+      border-right: 1px solid #dfe1e2;
+      > div {
+        &:not(.last-child) {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}

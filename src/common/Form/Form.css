@@ -1,0 +1,22 @@
+:local(.form) {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  :local(.form) label, :local(.form) input, :local(.form) h1, :local(.form) h2, :local(.form) h3, :local(.form) h4, :local(.form) h5, :local(.form) h6 {
+    width: 100%; }
+  :local(.form) label {
+    display: block;
+    font-size: 14px;
+    padding: 2px 0px; }
+  :local(.form) input, :local(.form) select {
+    margin: 2px 0px; }
+  :local(.form) select {
+    align-self: flex-start;
+    min-width: 175px; }
+  :local(.form) > div {
+    width: 100%; }
+  :local(.form) .buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
