@@ -6,8 +6,8 @@
 
 ## cd to project /todo
 
-## RUN npm install
+## RUN: 'npm install'
 
-## RUN npm start
+## RUN: 'npm start'
 
 ### Basic-Todo
