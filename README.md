@@ -1,6 +1,6 @@
-### Start-Up Instructions:
+## Start-Up Instructions:
 
-# Download & Unzip
+### Download & Unzip
 
 ## Open Termial
 
@@ -10,4 +10,4 @@
 
 ## RUN npm start
 
-# Basic-Todo
+### Basic-Todo
