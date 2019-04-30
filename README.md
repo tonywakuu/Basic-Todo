@@ -1,10 +1,10 @@
 Start-Up Instructions:
 
-Download Zip
+Download & UnZip
 
 Open Termial
 
-cd to /todo
+cd to project /todo
 
 RUN npm install
 
