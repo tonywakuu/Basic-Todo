@@ -1,6 +1,6 @@
 ## Start-Up Instructions:
 
-### Download & Unzip
+## Download & Unzip
 
 ## Open Termial
 
